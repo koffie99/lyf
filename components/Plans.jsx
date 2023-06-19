@@ -11,9 +11,9 @@ const Plans = () => {
 
   return (
     <div className='min-h-[100%] bg-white w-[100%] p-20 lg:px-24 py-16'>
-        <div className='flex items-center justify-between px-12'>
-            <h1 className='font-bold text-2xl'>Featured Plans</h1>
-            <h2 className='font-semibold text-lg'>Explore All</h2>
+        <div className='flex items-center justify-between'>
+            <h1 className='font-bold text-xl md:text-2xl'>Featured Plans</h1>
+            <h2 className='font-normal md:font-semibold text-normal md:text-lg'>Explore All</h2>
         </div>
         <div className="mt-11 flex justify-center flex-col md:flex-row sm:gap-5 md:justify-center lg:justify-center lg:gap-7">
 
