@@ -11,7 +11,7 @@ const Splash = () => {
   return (
     <div className='min-h-[100%] p-24 w-full bg-white flex flex-col items-center justify-center gap-4 mt-11'>
         <div className='flex flex-col items-center text-center gap-5'>
-            <h1 className='font-bold text-3xl w-[80%] leading-[1.6em] lg:text-5xl'>Life Planning, Making Easy to Turn Dreams a Reality.</h1>
+            <h1 className='font-bold text-3xl w-[80%] leading-[1.6em] lg:leading-[1.5em] lg:text-5xl'>Life Planning, Making Easy to Turn Dreams a Reality.</h1>
             <p className='text-xl font-normal mb-2'>Get Exclusive offers on purchase on any plans</p>
             <form action="" className='flex items-center gap-2'>
                 <div className='flex items-center gap-3 ring-1 ring-[#242424] rounded-full py-2 px-7 mb-3'>
