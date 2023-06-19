@@ -10,8 +10,10 @@ const Navbar = () => {
             <h1 className='font-semibold'>Lyf Insurance Service</h1>
         </Link>
         <div className='flex items-center gap-5'>
-            <Link href="/" className='ring-1 ring-[#ccc] py-2 px-5 rounded-full'>Login</Link>
-            <Link href="/" className='bg-[#242424] text-white py-2 px-5 rounded-full'>Get Started</Link>
+            <div className='flex items-center gap-2 md:gap-3 hidden md:block'>
+              <Link href="/" className='ring-1 ring-[#ccc] py-2 px-5 rounded-full m-1'>Login</Link>
+              <Link href="/" className='bg-[#242424] text-white py-2 px-5 rounded-full'>Get Started</Link>
+            </div>
             <DragHandleIcon />
         </div>
     </div>
